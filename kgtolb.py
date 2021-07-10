@@ -1,0 +1,10 @@
+#user inputs value
+kilo_input = input ("enter a value in kilograms: ")
+#capture the data entered by the user
+kilo = float (kilo_input)
+#conversion
+conv_fac = 2.205
+#converting input to lb
+lb = kilo * conv_fac
+#result
+print ('%0.2f kilograms is equal to %0.2f lbs' %(kilo,lb))
